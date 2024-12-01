@@ -17,31 +17,41 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  windev,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+
   carrent,
+  visionbudget,
   jobit,
   tripguide,
-  threejs,
+  php,
+  firebase,
+  reactnative,
+  sifa,
+  pimpme,
+  bdoc,
+  lmgc,
+  nutrimoi,
+  siteweb,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
   {
-    id: "about",
-    title: "About",
+    id: "apropos",
+    title: "A propos",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "portfolio",
+    title: "Portfolio",
+  },
+  {
+    id: "experience",
+    title: "Expériences",
   },
   {
     id: "contact",
@@ -51,19 +61,19 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Développeur logiciels",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Développeur React native",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Développeur web",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Créateur de contenu",
     icon: creator,
   },
 ];
@@ -82,16 +92,16 @@ const technologies: TTechnology[] = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "ReactNative",
+    icon: reactnative,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Windev",
+    icon: windev,
   },
   {
     name: "Tailwind CSS",
@@ -102,78 +112,64 @@ const technologies: TTechnology[] = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Firebase",
+    icon: firebase,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "PHP",
+    icon: php,
   },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
+  
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Développeur Windev/SQL",
+    companyName: "SIFA",
+    icon: sifa, //Mettre icon sifa
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Mars 2024 - Présent",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Missions : Je participe au développement et à l’évolution d’un ERP en créant de nouvelles fonctionnalités adaptées aux besoins des utilisateurs. L’intégration de données et l’échange d’informations avec d’autres systèmes font parti de mes missions.",
+      "Méthodologie Agile : je collabore avec l’équipe pour garantir des livraisons efficaces et continues.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "Alternant Développeur Windev",
+    companyName: "PIM-PME",
+    icon: pimpme,  //Mettre icon pimpme
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sept. 2020 - Nov. 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Projet IWS : Récupération de devis & facture depuis leur plateforme web vers l'ERP Codial.",
+      "Projet URSSAF (Facturation directe) : Envoi de facture Codial vers la plateforme de l'URSSAF. Le but étant d'anticiper la facturation directe.",
+      "Projet INTENT : Synchronisation de bon d'intervention de Codial vers la plateforme web Intent.",
+      "Maintenance et évolution de l'ERP Codial : Assistance client et développement de macros.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
+    title: "Développeur/Concepteur",
+    companyName: "BDOC (Groupe GFI)",
+    icon: bdoc,  //Mettre icon groupe GFI
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sept. 2019 - Juil. 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Mission ALPTIS : Interventon chez le client pour la conception des modèles de document analysés. Maintenance et migration de modèles existants sur la version BDOC Suite V7.",
+      "Projet Yamaha : Maintenance et correction de modèles existants sur la version BDOC V5",
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
+    title: "Développeur PHP",
+    companyName: "LMGC",  //Mettre icon LMGC
+    icon: lmgc,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Janv. 2019 - Sept. 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Evolution d'une application web de gestion de contrats du LMGC.",
+      "Elaboration d'un cahier des charges et échanges avec utilisateurs finals de l'application web.",
+      "Rédaction d'une documentation utilisateur et développeur",
+      "Maintenance de l'application web",
     ],
   },
 ];
@@ -207,16 +203,16 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Vision Budget",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Application mobile conçue pour suivre et gérer facilement ses prélèvements mensuels, en offrant une vue claire sur les finances personnelles.",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -224,51 +220,60 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: visionbudget,
+    sourceCodeLink: "https://github.com/orandri",
   },
   {
-    name: "Job IT",
+    name: "Nutri-moi",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Application mobile de suivi de nutrition. Axée sur la personnalisation et pour aider les utilisateurs à atteindre leurs objectifs de santé et de nutrition.",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "sql",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: nutrimoi,
+    sourceCodeLink: "https://github.com/orandri",
   },
   {
-    name: "Trip Guide",
+    name: "Site web perso",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Site retraçant tout mon parcours. Il comprend mes compétences, activités, pacours pro et perso ainsi que les projets développés.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "PHP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: siteweb,
+    sourceCodeLink: "https://randriaolivier.fr",
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
