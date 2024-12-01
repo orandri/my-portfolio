@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { logo } from "../../assets"
+
 
 import { styles } from "../../constants/styles";
 import { ComputersCanvas } from "../canvas";

@@ -7,7 +7,7 @@ import { SectionWrapper } from "../../hoc";
 import { fadeIn } from "../../utils/motion";
 import { config } from "../../constants/config";
 import { Header } from "../atoms/Header";
-import {logo} from "../../assets"
+
 
 interface IServiceCard {
   index: number;
